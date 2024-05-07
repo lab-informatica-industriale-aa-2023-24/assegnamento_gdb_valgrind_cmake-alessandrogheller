@@ -13,9 +13,9 @@
 
 int main()
 {
-	int somma = 0;
+	double somma = 0;
 	int val;
-	int numeri = 0;
+	double numeri = 0;
 	while (scanf("%d\n",&val) != EOF) {
 		somma += val;
 		numeri++;
